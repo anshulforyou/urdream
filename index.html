@@ -1,481 +1,316 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Home</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="css/select2/select2.min.css">
+    <script
+      src="https://kit.fontawesome.com/50a19aa0cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-    <div class="container">
-      <div>
-        <div>
-            <a class="navbar-brand mr-auto" href="#">
-          <img src="http://images/loader.gif" alt="#" /></a>
-        </div>
-      </div>
-
-      <div>
-        <a href="http://index.html" target="_blank"
-          ><img src="http://images/logo.png" alt="image"
-        /></a>
-        <button type="button">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="container">
+        <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" height="80" ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div>
-          <ul>
-            <li><a href="http://index.html" target="_blank">Home</a></li>
-            <li><a href="http://about.html" target="_blank">About</a></li>
-            <li><a href="http://courses.html" target="_blank">Courses</a></li>
-            <li><a href="http://reaserch.html" target="_blank">Reaserch</a></li>
-            <li><a href="http://news.html" target="_blank">News</a></li>
-            <li>
-              <a href="http://contact.html" target="_blank">Contact us</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="color: black;"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about2.html" style="color: black;"> About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html" style="color: black;"> Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html" style="color: black;"> Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html" style="color: black;"> FAQ</a>
             </li>
           </ul>
         </div>
-        <div>
-          <input type="text" />
-          <a>
-            <img src="http://images/search_icon.png" alt="#" />
-          </a>
-        </div>
       </div>
+    </nav>
 
-      <div>
-        <div>
-          <div>
-            <div>
-              <div style="background-image: url(images/banner_img.png);">
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <h3>
-                          <span span>You only have to know one thing</span
-                          ><br />you can learn anything
-                        </h3>
-                        <h4>Free Educations</h4>
-                        <br />
-                        <div>
-                          <a href="http://courses.html" target="_blank"
-                            >Start a Course</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div style="background-image: url(images/banner_img.png);">
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <h3>
-                          <span span>You only have know one thing</span
-                          ><br />you can learn anything
-                        </h3>
-                        <h4>Free Educations</h4>
-                        <br />
-                        <div>
-                          <a href="http://courses.html" target="_blank"
-                            >Start a Course</a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <div id="book_slot" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h4 class="modal-title">Book an appointment</h4> -->
+            <button class="close" type="button" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body text-center">
+            <p style="font-size: 200%;">Hurry up limited seats available!!<br>Book your appointment now</p>
+            <div class="col-12">
+                <a href="#appointment"><button class="btn btn-primary ml-1">Book Appointment</button></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <ul>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i1.png" alt="#" /></span
-                      ><span>University Life</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i2.png" alt="#" /></span
-                      ><span>Graduation</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i3.png" alt="#" /></span
-                      ><span>Athletics</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i4.png" alt="#" /></span
-                      ><span>Social</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i5.png" alt="#" /></span
-                      ><span>Location</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i6.png" alt="#" /></span
-                      ><span>Call us</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#0.2_"
-                      ><span><img src="http://images/i7.png" alt="#" /></span
-                      ><span>Email</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <h2><span>Welcome To</span> Education</h2>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                </div>
-                <div>
-                  <a href="#0.2_">About more</a>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="http://images/img2.png" alt="#" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <h2><span>Benefits </span>of study and work in Canada</h2>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="http://images/p1.png" alt="#" />
-                <h4>Financial Accounting</h4>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="http://images/p2.png" alt="#" />
-                <h4>Managerial Accounting</h4>
-              </div>
-            </div>
-            <div>
-              <div>
-                <img src="http://images/p3.png" alt="#" />
-                <h4>Intermediate Accounting</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img src="http://images/img6.png" alt="#" />
-              </div>
-            </div>
-            <div>
-              <div>
-                <div>
-                  <h2><span>Apply for Admission</span></h2>
-                </div>
-                <div>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                </div>
-                <div>
-                  <a href="#0.2_">Apply</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <h2><span>Blogs</span></h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <img src="http://images/img9.png" alt="#" />
-                          <h4>Technology</h4>
-                          <p>
-                            Pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum
-                          </p>
-                        </div>
-                      </div>
-                      <div>
-                        <div>
-                          <img src="http://images/img8.png" alt="#" />
-                          <h4>Education</h4>
-                          <p>
-                            Pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div>
-                      <div>
-                        <div>
-                          <img src="http://images/img9.png" alt="#" />
-                          <h4>Technology</h4>
-                          <p>
-                            Pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum
-                          </p>
-                        </div>
-                      </div>
-                      <div>
-                        <div>
-                          <img src="http://images/img8.png" alt="#" />
-                          <h4>Education</h4>
-                          <p>
-                            Pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <a href="#0.2_demo">
-                  <span></span>
-                </a>
-                <a href="#0.2_demo">
-                  <span></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <div>
-                  <h2><span>Contact</span></h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div style="background: #12385b;">
-        <div>
-          <div>
-            <div>
-              <div>
-                <img src="http://images/img10.png" alt="#" />
-              </div>
-            </div>
-            <div>
-              <div>
-                <form
-                  action="http://contact.html"
-                  target="_blank"
-                  onsubmit='try {return window.confirm("This form may not function properly due to certain security constraints.\nContinue?");} catch (e) {return false;}'
-                >
-                  <fieldset>
-                    <div>
-                      <input type="text" name="your name" />
-                    </div>
-                    <div>
-                      <input type="email" name="Email" />
-                    </div>
-                    <div>
-                      <input type="phn" name="Phone number" />
-                    </div>
-                    <div>
-                      <textarea></textarea>
-                    </div>
-                    <div>
-                      <div><button>Send</button></div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <div>
-                <img src="http://images/footer_logo.png" alt="#" />
-              </div>
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h3>Quick links</h3>
-              <ul>
-                <li><a href="#0.2_">&gt; Join Us</a></li>
-                <li><a href="#0.2_">&gt; Maintenance</a></li>
-                <li><a href="#0.2_">&gt; Language Packs</a></li>
-                <li><a href="#0.2_">&gt; LearnPress</a></li>
-                <li><a href="#0.2_">&gt; Release Status</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h3>Newsletter</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              </p>
-              <div>
-                <form
-                  action="http://index.html"
-                  target="_blank"
-                  onsubmit='try {return window.confirm("This form may not function properly due to certain security constraints.\nContinue?");} catch (e) {return false;}'
-                >
-                  <input type="email" name="#" />
-                  <button>Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <h3>Contact us</h3>
-              <ul>
-                <li>
-                  <img src="http://images/i5.png" /><span
-                    >London 145<br />United Kingdom</span
-                  >
-                </li>
-                <li>
-                  <img src="http://images/i6.png" /><span
-                    ><a href="mailto:demo@gmail.com" target="_blank"
-                      >demo@gmail.com</a
-                    ></span
-                  >
-                </li>
-                <li>
-                  <img src="http://images/i7.png" /><span>+12586954775</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <div>
-            <div>
-              <p>© Copyrights 2019 design by html.design</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <a href="#0.2_"><i></i></a>
     </div>
+
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="images/bg-12.jpg" alt="uthappizza" class="d-block w-100"  />
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h2>
+              Canada<span class="badge badge-danger">HOT</span
+              ><span class="badge badge-pill badge-secondary">$4.99</span>
+            </h2>
+            <p>
+              A unique combination of Indian Uthappam (pancake) and Italian
+              pizza, topped with Cerignola olives, ripe vine cherry tomatoes,
+              Vidalia onion, Guntur chillies and Buffalo Paneer.
+            </p>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg-22.jpg" class="d-block w-100" />
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h2>
+              Weekend Grand Buffet <span class="badge badge-danger">NEW</span>
+            </h2>
+            <p>
+              Featuring mouthwatering combinations with a choice of five
+              different salads, six enticing appetizers, six main entrees and
+              five choicest desserts. Free flowing bubbly and soft drinks. All
+              for just $19.99 per person
+            </p>
+          </div> -->
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg-32.jpg" alt="uthappizza" class="d-block w-100" />
+          <!-- <div class="carousel-caption d-none d-md-block">
+            <h2>Canada</h2>
+            <h4>Executive</h4>
+            <p>
+              Award winning three-star Michelin chef with wide International
+              experience having worked closely with whos-who in the culinary
+              world, he specializes in creating mouthwatering Indo-Italian
+              fusion experiences.
+            </p>
+          </div> -->
+        </div>
+        <ol class="carousel-indicators">
+          <li data-type="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-type="#mycarousel" data-slide-to="1"></li>
+          <li data-type="#mycarousel" data-slide-to="2"></li>
+        </ol>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#mycarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#mycarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      <button class="btn btn-danger btn-sm" id="carouselButton">
+        <span class="fa fa-pause"></span>
+      </button>
+      </div>
+    </div>
+
+      <header class="jumbotron" style="margin-top: 0px;">
+        <div class="container">
+          <div class="row row-header">
+            <h1 class="col-8">Want to study and settle in Canada?</h1>
+            <div class="col-12 col-sm-3 align-self-center">
+              <!-- data-toggle="modal" data-target="#reserve_modal" -->
+              <a href="#appointment"><button
+                class="btn btn-block nav-link btn-warning" >
+                <!-- id="appointmentButton" -->
+                Book an appointment today
+              </button></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="benefits">
+        <div class="container-fluid p-0">
+          <div class="row no-gutters align-items-center">
+            <div class="col-lg-6">
+              <img src="images/div1.jpg" >    
+            </div>
+            <div class="col-lg-6">
+            <div class="section_title">
+              <h1 class="text-center">Why you should settle in Canada?</h1>
+              <h4 class="text-center" data-aos="fade-up">Fair Oppurtunities</h4>
+              <h4 class="text-center " data-aos="fade-up" data-aos-delay="200">Growing economy</h4>
+              <h4 class="text-center mb-2" data-aos="fade-up" data-aos-delay="400">Best Global Universities</h4>
+              <h4 class="text-center mb-2" data-aos="fade-up" data-aos-delay="600">Welcome Nationals from every country</h4>
+              <h4 class="text-center mb-2" data-aos="fade-up" data-aos-delay="800">Enjoy Dual Citizenship</h4>
+              <h4 class="text-center mb-2" data-aos="fade-up" data-aos-delay="1000">Immigrant Friendly</h4>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="row mt-2 mb-2">
+        <h1 class="col-12 text-center">Popular Insights</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-content">
+        <div class="col-12 col-sm-3 border">
+          <h1>How UrDream can help you in your dream to study in Canada?</h1>
+        </div>
+        <div class="col-12 col-sm-3 border offset-1">
+          <h1>Your roadmap from getting admission in Canada to Canadian PR.</h1>
+        </div>
+        <div class="col-12 col-sm-3 border offset-1">
+          <h1>
+            What are the Oppurtunities after completing Bacherlors from Canada?
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <a class="templateux-section templateux-cta animsition-link mt-5" href="#" data-aos="fade-up">
+        <div class="container-fluid">
+          <div class="cta-inner">
+            <h2><span class="words-1">Contact Us</span> <span class="words-2">Because it all start with a talk<br>So hurry up, book your appointment now</span></h2>
+          </div>
+        </div>
+      </a>
+      
+      <div class="container-contact100" id="appointment">
+        <div class="wrap-contact100">
+          <form class="contact100-form validate-form">
+            <span class="contact100-form-title">
+              Book an appointment
+            </span>
+    
+    
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+              <label class="label-input100" for="name">Full name</label>
+              <input id="name" class="input100" type="text" name="name" placeholder="Enter your name...">
+              <span class="focus-input100"></span>
+            </div>
+    
+            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+              <label class="label-input100" for="email">Email Address</label>
+              <input id="email" class="input100" type="text" name="email" placeholder="Enter your email...">
+              <span class="focus-input100"></span>
+            </div>
+            
+            <div class="wrap-input100 validate-input" data-validate="Phone Number is required">
+              <label class="label-input100" for="name">Phone Number</label>
+              <input id="phone_num" class="input100" type="text" name="name" placeholder="Enter your mobile number...">
+              <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100">
+              <div class="label-input100">Gender</div>
+              <div>
+                <select class="js-select2" name="service">
+                    <option>Please chooses</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Others</option>
+                  <option>Prefer not to specify</option>
+                </select>
+                <div class="dropDownSelect2"></div>
+              </div>
+              <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="City is required">
+              <label class="label-input100" for="name">City</label>
+              <input id="city" class="input100" type="text" name="city" placeholder="Enter your city...">
+              <span class="focus-input100"></span>
+            </div>
+    
+            <div class="container-contact100-form-btn">
+              <button class="contact100-form-btn">
+                Send
+              </button>
+            </div>
+          </form>
+
+          <div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+          </div>
+        </div>
+      </div>
+
+      <footer class="ftco-footer py-5">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <ul class="ftco-footer-social p-0">
+                <!-- <li class="fa fa-youtube"><a href="https://youtu.be/1W1N0mf6uQU"><span class="icon-youtube"></span></a></li> -->
+                <li data-aos="fade-up" data-aos-delay="100"><a href="mailto:manzil.anjaan.tush@gmail.com"><span class="fas fa-envelope fa-lg"></span></a></li>
+                <li data-aos="fade-up" data-aos-delay="200"><a href=""><span class="fas fa-phone fa-lg"></span></a></li>
+                
+              </ul>
+            </div>
+            <div class="col-md-12 text-center">
+              <p style="text-align: center;"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | UrDream</p>
+    <p>Website made by Anshul Yadav</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center">Contact Us</h2>
+          </div>
+          <div class="col-12">
+            <h3 class="text-center">Address</h3>
+          </div>
+          <div class="col-12">
+            <h3 class="text-center">Email</h3>
+          </div>
+          <div class="col-12">
+            <h3 class="text-center">Reach out to us</h3>
+          </div>
+        </div>
+      </div>
+    </footer> -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -491,5 +326,51 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="css/select2/select2.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#mycarousel").carousel({ interval: 2000 });
+        $("#book_slot").modal("show");
+        $("#carouselButton").click(function () {
+          if ($("#carouselButton").children("span").hasClass("fa-pause")) {
+            console.log("pause");
+            $("#mycarousel").carousel("pause");
+            $("#carouselButton").children("span").removeClass("fa-pause");
+            $("#carouselButton").children("span").addClass("fa-play");
+          } else if (
+            $("#carouselButton").children("span").hasClass("fa-play")
+          ) {
+            console.log("play");
+            $("#mycarousel").carousel("cycle");
+            $("#carouselButton").children("span").removeClass("fa-play");
+            $("#carouselButton").children("span").addClass("fa-pause");
+          }
+        });
+        $("#appointmentButton").click(function () {
+          // $("#book_slot").modal("show");
+        });
+      });
+
+      $(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+		$(".js-select2").each(function(){
+			$(this).on('select2:open', function (e){
+				$(this).parent().next().addClass('eff-focus-selection');
+			});
+		});
+		$(".js-select2").each(function(){
+			$(this).on('select2:close', function (e){
+				$(this).parent().next().removeClass('eff-focus-selection');
+			});
+		});
+    </script>
   </body>
 </html>
