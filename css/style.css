@@ -19,7 +19,7 @@ body {
 .jumbotron {
   /* padding: 70px 30px 70px 30px; */
   /* margin: 0px auto; */
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 0px;
   padding: 20px;
   background: #ff5959;
@@ -81,7 +81,7 @@ footer {
 
 .templateux-footer .footer-social a:hover,
 .templateux-footer .footer-social a:focus {
-  color: #dc3545;
+  color: #ff5959;
   -webkit-transform: scale(1.7);
   -ms-transform: scale(1.7);
   transform: scale(1.7);
@@ -120,7 +120,8 @@ footer {
   position: absolute;
   height: 0px;
   bottom: 0;
-  background: #dc3545;
+  /* top: 0; */
+  background: #ff5959;
   width: 100%;
   left: 0;
   -webkit-transition: 0.3s all ease-out;
@@ -191,7 +192,7 @@ footer {
 
 .templateux-media h3 {
   font-size: 18px;
-  color: #dc3545;
+  color: #ff5959;
 }
 
 .templateux-media .icon span {
