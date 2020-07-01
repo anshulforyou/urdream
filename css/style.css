@@ -151,6 +151,12 @@ footer {
   transition: 0.3s all ease;
 }
 
+@media (max-width: 320px) {
+  .templateux-cta span {
+    font-size: 50%;
+  }
+}
+
 .templateux-cta .words-1 {
   opacity: 1;
   visibility: visible;
