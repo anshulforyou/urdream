@@ -956,6 +956,23 @@ h4 {
   background-color: #f2f2f2;
 }
 
+.parallax2 {
+  background-image: url(../images/Benefits.jpg);
+  width: 100%;
+  background-size: cover;
+  /* height: 100%; */
+  opacity: 1;
+  background-color: #f2f2f2;
+}
+
+.parallax3 {
+  background-image: url(../images/why_study_canada.jpg);
+  width: 100%;
+  /* background-size: cover; */
+  opacity: 1;
+  background-color: white;
+}
+
 .full {
   position: absolute;
   /* left: 0; */
@@ -1008,4 +1025,21 @@ blockquote {
   height: 20px;
   width: 20px;
   display: block;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* width: 40%; */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container1 {
+  padding: 2px 16px;
 }
